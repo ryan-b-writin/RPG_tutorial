@@ -11,7 +11,7 @@ RPG.BattleState = function () {
         "enemy_unit": RPG.EnemyUnit.prototype.constructor
     };
     
-    this.TEXT_STYLE = {font: "14px Arial", fill: "#FFFFFF"};
+    this.TEXT_STYLE = {font: "9px Arial", fill: "#FFFFFF"};
 };
 
 RPG.BattleState.prototype = Object.create(Phaser.State.prototype);
